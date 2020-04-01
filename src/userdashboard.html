@@ -32,10 +32,16 @@
             <a href="">
                 <div
                     class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
+                    <h1 class="text-xs">Visit Developer</h1>
+                </div>
+            </a> 
+            <a href="./musics.html">
+                <div
+                    class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
                     <h1 class="text-xs">Musics</h1>
                 </div>
             </a>
-            <a href="">
+            <a href="./video.html">
                 <div
                     class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
                     <h1 class="text-xs">Videos</h1>
@@ -44,9 +50,20 @@
             <a href="">
                 <div
                     class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
-                    <h1 class="text-xs">Visit Developer</h1>
+                    <h1 class="text-xs">Home</h1>
                 </div>
             </a>
+            <a href="./fileupload.html">
+                <div
+                    class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
+                    <h1 class="text-xs">Upload files</h1>
+                </div>
+            </a>  
+            <span class="w-3/4 rounded mt-5 text-xs justify-center  select-all bg-[#dddddd] m-auto flex p-3">
+                <h1     >
+                goplay/Okechukwu//9843578484/play
+                </h1>
+            </span>
             <br>
             <div class="w-full p-1 bg-gray-100 rounded">
                 <h1 class="text-center text-xs p-1 text-gray-400">Loged in via</h1>
@@ -83,11 +100,11 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen class="rounded-lg w-full"></iframe> 
                 </div>
-                <!-- start copy -->
-                <input type="text" value="https://youtu.be/MefXQvGTYtE" id="myInput" class=" m-auto flex rounded-lg p-3 mt-3 text-sm text-center outline-none bg-[#dddddd]">  
-                <br>
-                <button onclick="myFunction()" class="w-full font-bold text-green-700 underline text-sm"><a href="https://savemedia.website" target="_blank">Downlaod Now</a></button>
-                <!-- ends copy -->   
+               <!-- start copy -->
+               <div  id="myInput" class=" m-auto rounded-lg p-3 w-3/4  mt-3 text-xs select-all text-center outline-none bg-[#dddddd]">  https://youtu.be/MefXQvGTYtE</div>
+               <br>
+               <button class="w-full font-bold text-green-700    underline outline-none text-sm" id="dowload"><a href="https://savemedia.website" id="clip" target="_blank">Downlaod Now</a></button>
+               <!-- ends copy -->
             <span class="w-3/4 rounded mt-5 text-xs justify-center  select-all bg-[#dddddd] m-auto flex p-3">
                 <h1     >
                 goplay/Okechukwu//9843578484/play
@@ -244,7 +261,7 @@
                             href="./index.html">Home</a></button>
                 </div>
                 <div class="w-full youare flex font-bold justify-around p-1 mt-3 text-white text-sm">
-                    <button class="w-32 bg-[#000000] p-3 rounded-lg outline-none songer">Notification</button>
+                    <button class="w-32 bg-[#000000] p-3 rounded-lg outline-none songer"><a href="./usernotice.html">Notification</a></button>
                     <button class="w-32 text-xs bg-[#000000] p-2 rounded-lg outline-none songeri" id="dropshower">Top
                         videos/Musics</button>
                     <button class="w-32 bg-[#000000] p-2 rounded-lg outline-none songer"><a href="./fileupload.html">Upload</a></button>
@@ -288,15 +305,7 @@
         </div>
     </div> 
 </body> 
-<script>
-    function myFunction() {
-        var copyText = document.getElementById("myInput");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999);
-        navigator.clipboard.writeText(copyText.value); 
-        alert("Copied  paste the link in the input provided below and click on the download icon to downlaod the HD video and mp3");
-    } 
-</script>
+<script src="/js/copy.js"></script>
 <script src="/js/dash.js"></script> 
 <script src="/js/music.js"></script>  
 </html> 

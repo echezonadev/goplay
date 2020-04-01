@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +9,39 @@
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="/img/wall.jpeg" type="image/x-icon">
-</head>  
-   <section class="flex items-center justify-center w-full h-screen suld bg-white indes fixed">
+</head>
+<section class="flex items-center justify-center w-full h-screen suld bg-white indes fixed">
     <div>
-       <h1 class=" font-bold gop underline text-4xl leading-1">
-           GOPLAY
-       </h1> 
-       <h1 class="text-center mt-2 font-bold gose text-[#bbbbbb]">
-           Loading <br> Admin Dashboard
-       </h1>
+        <h1 class=" font-bold gop underline text-4xl leading-1">
+            GOPLAY
+        </h1>
+        <h1 class="text-center mt-2 font-bold gose text-[#bbbbbb]">
+            Loading <br> Admin Dashboard
+        </h1>
     </div>
-   </section>
-<body> 
+</section> 
+<body>
     <div class="w-full bg-[#000000ce] p-3 opert hidden h-screen fixed" id="disnab">
         <div class="w-64 p-2 bg-[white] obey rounded-lg">
             <div class="w-full flex justify-end">
                 <h1 class="font-bold text-xl text-gray-400 cursor-pointer" id="navss">X</h1>
-            </div> 
+            </div>
             <a href="./update.html">
                 <div
                     class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
                     <h1 class="text-xs">Update web music/video</h1>
                 </div>
-            </a>  
+            </a>
             <a href="./uploadmusic.html">
-                <div 
-                class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto justify-around items-center">
+                <div
+                    class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto justify-around items-center">
                     <h1 class="text-xs">Uplaod musics</h1>
+                </div>
+            </a>
+            <a href="notify.html">
+                <div
+                    class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
+                    <h1 class="text-xs">Notifications</h1>
                 </div>
             </a>
             <a href="./uplaodvideo.html">
@@ -48,19 +55,19 @@
                     class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
                     <h1 class="text-xs">Uplaod news</h1>
                 </div>
-            </a>   
+            </a>
             <a href="./file.html">
                 <div
                     class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
                     <h1 class="text-xs">My files</h1>
                 </div>
-            </a>  
+            </a>
             <a href="./index.html">
                 <div
                     class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
                     <h1 class="text-xs">Home</h1>
                 </div>
-            </a>  
+            </a>
             <br>
             <br>
             <div class="w-full p-1 bg-gray-100 rounded">
@@ -76,12 +83,12 @@
                 </div>
             </div>
         </div>
-    </div> 
-    <div class="w-full overflow-scroll  h-screen bg-[#ebebeb] "> 
-        <div class="w-1/4 m-auto mt-28 obeyt"  id="allos">
+    </div>
+    <div class="w-full overflow-scroll  h-screen bg-[#ebebeb] ">
+        <div class="w-1/4 m-auto mt-28 obeyt" id="allos">
             <div class="w-full  bg-white rounded-lg romis p-2">
                 <h1 class="text-center mb-6 font-bold mt-1">
-                  Admin Dashboard
+                    Admin Dashboard
                 </h1>
                 <div class="flex teplet items-center justify-between">
                     <svg xmlns="http://www.w3.org/2000/svg" id="stand"
@@ -89,18 +96,17 @@
                         stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-                    </svg> 
+                    </svg>
                 </div>
                 <div class="w-11/12 followdiv mt-5 m-auto flex items-center justify-between  ">
                     <div class="w-32 h-32 beloi rounded-full">
                         <img src="/img/hand.jpeg" class="rounded-full bahi w-32 h-32" alt="">
-                    </div>
-                    <div class="w-1 h-10 bg-[black] "></div>
+                    </div>  
                     <div>
                         <h1 class="font-bold text-xl ome">
                             11
                         </h1>
-                        <h1 class="text-gray-600 text-sm omelo">Total songs</h1>
+                        <h1 class="text-gray-600 text-sm omelo">Total videos</h1>
                     </div>
                     <div>
                         <h1 class="font-bold text-xl ome">
@@ -114,33 +120,51 @@
                         </h1>
                         <h1 class="text-gray-600 text-sm omelo">followers</h1>
                     </div>
-                </div>   
+                </div>
                 <br>
-                <h1 class="text-center" id="time"></h1>
+                <div class="w-5/6 bg-[#e5e7eb] m-auto p-3 flex justify-around items-center rounded">
+                    <h1 class=" text-xs" id="timer"></h1>
+                    <h1 class=" text-xs" id="times"></h1> 
+                    <h1 class=" text-xs" id="timeer"></h1> 
+                    <h1 class=" text-xs" id="twenty"></h1> 
+                </div> 
+                <h1 class="text-center mt-2 text-xs font-bold text-[black]">
+                    Time
+                </h1>
+                <div class="w-36 bg-[#e5e7eb] m-auto mt-2 p-3 flex justify-around items-center rounded">
+                    <h1 class="text-center text-xs" id="full"></h1>
+                    <h1 class="text-center text-xs">:</h1>
+                    <h1 class="text-center text-xs" id="lio"></h1> 
+                    <h1 class="text-center text-xs" id="liop"></h1>  
+                </div>
                 <br>
-                <div class="middle"> 
-                    <h1 class="capitalize font-bold text-center">our Services</h1> 
-                    <h1 class="capitalize text-xs text-gray-500 flex w-full p-3  justify-between">Html <span>30%</span></h1>
+                <div class="middle">
+                    <h1 class="capitalize font-bold text-center">our Services</h1>
+                    <h1 class="capitalize text-xs text-gray-500 flex w-full p-3  justify-between">Html <span>30%</span>
+                    </h1>
                     <div class="twos">
                         <div class="rise">
-                
+
                         </div>
                     </div>
-                    <h1 class="capitalize text-xs text-gray-500 flex w-full p-3 mt-1  justify-between">css <span>50%</span></h1>
+                    <h1 class="capitalize text-xs text-gray-500 flex w-full p-3 mt-1  justify-between">css
+                        <span>50%</span></h1>
                     <div class="risee">
-                        <div class="tw2"> 
+                        <div class="tw2">
                         </div>
                     </div>
-                    <h1 class="capitalize text-xs text-gray-500 flex w-full p-3  justify-between">Javascript <span>20%</span></h1>
+                    <h1 class="capitalize text-xs text-gray-500 flex w-full p-3  justify-between">Javascript
+                        <span>20%</span></h1>
                     <div class="ris">
                         <div class="tw2">
-                
+
                         </div>
                     </div>
-                    <h1 class="capitalize text-xs text-gray-500 flex w-full p-3  justify-between">tailwind<span>100%</span></h1>
+                    <h1 class="capitalize text-xs text-gray-500 flex w-full p-3  justify-between">
+                        tailwind<span>100%</span></h1>
                     <div class="rit">
                         <div class="tw2">
-                
+
                         </div>
                     </div>
                 </div>
@@ -151,15 +175,13 @@
                 </div>
             </div>
         </div>
-    </div> 
-</body> 
+    </div>
+</body>
 <script src="/js/time.js"></script>
-<script src="/js/dash.js"></script> 
-<script src="/js/music.js"></script>  
-</html> 
+<script src="/js/dash.js"></script>
+<script src="/js/music.js"></script>
 
-
-
+</html>
 <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
     <path fill-rule="evenodd"
         d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"

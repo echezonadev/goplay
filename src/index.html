@@ -145,8 +145,7 @@
         </div>
     </div>
 </div>
-<section class="fourkey">
-
+<section class="fourkey"> 
     <body>
         <nav class="bg-black flex items-center w-full screenty">
             <div class="p-2 cursor-pointer  los">
@@ -216,8 +215,8 @@
                                     clip-rule="evenodd" />
                             </svg> </a>
                     </div>
-                </div> 
-            </div>
+                </div>  
+            </div>  
         </nav>
         <main>
             <section class="w-full">
@@ -251,8 +250,8 @@
                                         <a href="./downmusic.html">Download Osake ft Burna Boy (sugba)</a>
                                     </h1>
                                     <h1
-                                        class="text-xs mt-2 hover:text-black transition text-center text-gray-600 tray tracking">
-                                        1:22 <span>Ago<h1 class="mt-1 text-gray-400">music</h1></span></h1>
+                                        class="text-xs mt-2 hover:text-black  transition text-center text-gray-600 tray tracking">
+                                        12/09/2022<span><h1 class="mt-1 text-gray-400">music</h1></span></h1>
                                 </div>
                             </div>
                         </div>
@@ -280,9 +279,9 @@
                                     allowfullscreen class="rounded-lg w-full"></iframe> 
                             </div>
                             <!-- start copy -->
-                            <input type="text" value="https://youtu.be/MefXQvGTYtE" id="myInput" class=" m-auto flex rounded-lg p-3 mt-3 text-sm text-center outline-none bg-[#dddddd]">  
+                            <div  id="myInput" class=" m-auto rounded-lg p-3 w-3/4 text-xs mt-3 select-all text-center outline-none bg-[#dddddd]">  https://youtu.be/MefXQvGTYtE</div>
                             <br>
-                            <button onclick="myFunction()" class="w-full font-bold text-green-700 underline text-sm"><a href="https://savemedia.website" target="_blank">Downlaod Now</a></button>
+                            <button class="w-full font-bold text-green-700 underline outline-none text-sm" id="dowload"><a href="https://savemedia.website" id="clip" target="_blank">Downlaod Now</a></button>
                             <!-- ends copy -->
                             <div class="osell">
                                 <h1 class="text-center p-3 mt-2 text-zinc-600 text-sm">Ads</h1>
@@ -306,8 +305,8 @@
                                         <a href="./downvideo.html">Download Osake ft Burna Boy (sugba)</a>
                                     </h1>
                                     <h1
-                                        class="text-xs mt-2 hover:text-black transition text-center text-gray-600 tray tracking">
-                                        1:22 <span>Ago<h1 class="mt-1 text-gray-400">music</h1></span></h1>
+                                        class="text-xs mt-2 hover:text-black  transition text-center text-gray-600 tray tracking">
+                                        12/09/2022<span><h1 class="mt-1 text-gray-400">music</h1></span></h1>
                                 </div>
                             </div>
                         </div>
@@ -504,8 +503,7 @@
                                         <h1 class="text-xs mt-3 gey text-gray-600">News</h1>
                                     </div>
                                     <div class="flex items-center w-1/4 geys  text-xs ">
-                                        <h1 class="text-gray-600 mogis">12:54 </h1>
-                                        <h1 class="p-1 text-gray-600 mogis">Ago</h1>
+                                        <h1 class="text-gray-600 mogis"> 12/09/2022</h1> 
                                     </div>
                                 </div>
                             </div>
@@ -519,17 +517,9 @@
             </section>
         </main>
     </body>
-</section>  
-<script>
-    function myFunction() {
-        var copyText = document.getElementById("myInput");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999);
-        navigator.clipboard.writeText(copyText.value); 
-        alert("Copied  paste the link in the input provided below and click on the download icon to downlaod the HD video and mp3");
-    } 
-</script>
+</section>   
 </html>
+<script src="/js/copy.js"></script>
 <script src="/js/index.js"></script>
 <script src="/js/slide.js"></script> 
 <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

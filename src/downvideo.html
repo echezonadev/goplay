@@ -201,7 +201,8 @@
                         clip-rule="evenodd" />
                 </svg>
             </div>
-        </div>
+            <br>
+        </div>  
     </nav>
     <div class="bg-[#dddddd] cuplo obe   overflow-scroll w-full h-screen p-5">
         <div class="w-1/4 bg-white p-1  obeys romio m-auto rounded">
@@ -239,9 +240,10 @@
                 making a heat in ybnl recored label after his last music pbou downlaod and listen below
             </h1>
             <!-- start copy -->
-            <input type="text" value="https://youtu.be/MefXQvGTYtE" id="myInput" class=" m-auto flex rounded-lg p-3 mt-3 text-sm text-center outline-none bg-[#dddddd]">  
+            <div  id="myInput" class=" m-auto rounded-lg p-3 w-3/4 text-xs mt-3
+            select-all text-center outline-none bg-[#dddddd]">  https://youtu.be/MefXQvGTYtE</div>
             <br>
-            <button onclick="myFunction()" class="w-full font-bold text-green-700 underline text-sm"><a href="https://savemedia.website" target="_blank">Downlaod Now</a></button>
+            <button class="w-full font-bold text-green-700 underline outline-none text-sm" id="dowload"><a href="https://savemedia.website" id="clip" target="_blank">Downlaod Now</a></button>
             <!-- ends copy -->
             <div class="w-full m-auto mt-5 font-bold items-center  flex justify-around p-1">
                 <div class="flex">
@@ -414,16 +416,8 @@
             </footer>
         </div>
     </div>
-</body>
-<script>
-    function myFunction() {
-        var copyText = document.getElementById("myInput");
-        copyText.select();
-        copyText.setSelectionRange(0, 99999);
-        navigator.clipboard.writeText(copyText.value); 
-        alert("Copied  paste the link in the input provided below and click on the download icon to downlaod the HD video and mp3");
-    } 
-</script>
+</body> 
+<script src="/js/copy.js"></script>
 <script src="/js/slide.js"></script>
 <script src="/js/index.js"></script>
 <script src="/js/coment.js"></script>
