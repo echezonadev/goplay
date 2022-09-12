@@ -442,21 +442,27 @@
                                     >></h1>
                             </div>
                         </div>
+                      
                         <div class="osa">
                             <h1 class="text-center p-3 mt-2 text-zinc-600 text-sm">Top music videos
                             </h1>
                             <div class="w-full p-2 m-auto mt-1 rounded-lg bg-[#ebebeb]">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/aoVLfLUm2vk"
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/MefXQvGTYtE"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen class="rounded-lg w-full "></iframe>
+                                    allowfullscreen class="rounded-lg w-full"></iframe> 
                             </div>
+                            <!-- start copy -->
+                            <input type="text" value="https://youtu.be/MefXQvGTYtE" id="myInput" class=" m-auto flex rounded-lg p-3 mt-3 text-sm text-center outline-none bg-[#dddddd]">  
+                            <br>
+                            <button onclick="myFunction()" class="w-full font-bold text-green-700 underline text-sm"><a href="https://savemedia.website" target="_blank">Downlaod Now</a></button>
+                            <!-- ends copy -->
                             <div class="osell">
                                 <h1 class="text-center p-3 mt-2 text-zinc-600 text-sm">Ads</h1>
                                 <div class="w-full p-2 m-auto mt-1 rounded-lg bg-[#ebebeb]">
                                     <img src="/img/cart.jpeg" class="rounded-lg w-full " alt="">
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                         <div class="hid">
                             <h1 class="text-center p-3 mt-2 text-zinc-600 text-sm  ">Popular Tags</h1>
@@ -586,8 +592,7 @@
                                     <h1 class="text-xs mt-3 gey text-gray-600">Music</h1>
                                 </div>
                                 <div class="flex items-center w-1/4 geys  text-xs ">
-                                    <h1 class="text-gray-600 mogis">12:54 </h1>
-                                    <h1 class="p-1 text-gray-600 mogis">Ago</h1>
+                                    <ss="p-1 text-gray-600 mogis">Ago</h1>
                                 </div>
                             </div>
                         </div>
@@ -601,6 +606,15 @@
         </main>
     </section>
 </body>
+<script>
+    function myFunction() {
+        var copyText = document.getElementById("myInput");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value); 
+        alert("Copied  paste the link in the input provided below and click on the download icon to downlaod the HD video and mp3");
+    } 
+</script>
 <script src="/js/index.js"></script>
 <script src="/js/music.js"></script>
 <script src="/js/slide.js"></script>
