@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="/img/wall.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="w-full h-screen overflow-scroll  bg-[#ebebeb] ">
+        <div class=" p-2 bg-[white] rounded-lg romio w-2/5 neverse m-auto">
+            <div>
+                <h1 class="text-black font-bold text-4xl cursor-pointer text-center underline">
+                    Goplay
+                </h1>
+            </div>
+            <br> 
+                <div class="w-full p-2 m-auto">
+                    <input type="text" placeholder="Artist name" id="one"
+                        class="p-3 rounded-xl outline-none border-2 border-gray-400  w-full" required> 
+                </div>
+                <div class="w-full p-2 m-auto">
+                    <input type="email" placeholder="Email"
+                        class="p-3 rounded-xl outline-none border-2 border-gray-400  w-full" required>
+                </div>
+                <div class="w-full p-2 m-auto">
+                    <input type="number" placeholder="Phone Number"
+                        class="p-3 rounded-xl outline-none border-2 border-gray-400  w-full" required>
+                </div>
+                <div class="w-full p-2 m-auto">
+                    <input type="password" placeholder="Password"
+                        class="p-3 rounded-xl outline-none border-2 border-gray-400  w-full" required>
+                </div>
+                <div class="w-full p-2 m-auto">
+                    <input type="password" placeholder="Retype Password"
+                        class="p-3 rounded-xl outline-none border-2 border-gray-400  w-full" required>
+                </div>
+                <h1 class="ml-2 text-gray-600 mt-2 mb-2">Your Picture</h1>
+                <input type="file" name="" required class="p-3 rounded-xl outline-none border-2 border-gray-400  w-full"
+                    id="">
+                <h1 class="ml-2 text-gray-600 mt-2">Gender</h1>
+                <select name="" id="" class="p-2 ml-2    mt-2">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <div class="w-full p-2 mt-2 m-auto">
+                    <input type="text" placeholder="Your BioGraphy"
+                        class="p-3 rounded-xl outline-none border-2 border-gray-400  w-full" required>
+                </div>
+                <div class="w-full flex justify-between mt-2 mb-2">
+                    <div class=" w-60 flex">
+                        <input class="  cursor-pointer" type="checkbox" required name="" id="">
+                        <div class=" text-xs">
+                            <h1 class="ml-2 cursor-pointer text-gray-500">Agree with our terms and conditions</h1>
+                            <h1 class="mt-2 ml-2 text-gray-500 hover:underline underline"><a href="/src/login.html">
+                                    Sign in here </a></h1>
+                        </div>
+                    </div>
+                    <button class="bg-[black] text-white w-36 h-12 rounded-lg outline-none text-xs p-3"
+                        id="creatbtn">Create
+                        Account</button>
+                </div> 
+        </div>
+    </div>
+</body>
+<script src="/js/validate.js"></script>
+</html>
