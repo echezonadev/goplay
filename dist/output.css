@@ -663,6 +663,10 @@ video {
   margin-left: 11rem;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -873,6 +877,10 @@ video {
 
 .w-1\/6 {
   width: 16.666667%;
+}
+
+.w-9\/12 {
+  width: 75%;
 }
 
 .cursor-pointer {
