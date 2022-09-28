@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,64 +10,97 @@
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="shortcut icon" href="/img/wall.jpeg" type="image/x-icon">
 </head>
+
 <body>
-    <div class="w-full h-screen   bg-[#ebebeb]"> 
+    <div class="w-full h-screen   bg-[#ebebeb]">
+        <div class="fixed w-full hidden" id="tiout">
+            <div class=" bg-[green] text-white p-2 capitalize   w-full text-center">
+                <h1>
+                    uplaoded Successfully
+                </h1>
+            </div>
+        </div>
+        <div class="fixed w-full hidden" id="tiouter">
+            <div class=" bg-[red] text-white p-2 capitalize   w-full text-center">
+                <h1>
+                 pleas add something and try again 
+                </h1>
+            </div>
+        </div>
         <br>
-        <section class="finder"> 
-        <section class="w-full m-auto   bg-[#ffffff] p-2">  
-            <h1 class="text-[red] text-xs text-center p-2" id="downs">
-               <span>Note:</span> Sum of 50$ apply in uplaoding each Music
-            </h1>
-            <h1 class="text-[red] text-xs text-center hidden p-2" id="deos">
-               <span>Note:</span> Sum of 50$ apply in uplaoding each Video
-            </h1>
-            <div class="w-full flex justify-between">
-                <button class="bg-[black] text-white text-xs font-bold p-2 rounded w-2/5 outline-none" id="song">
-                   <h1 id="sog">
-                    Music
-                   </h1>
-                </button>
-                <button class="bg-[#ffffff] border-2 text-xs  text-black font-bold w-2/5 rounded outline-none" id="video">
-                   <h1 id="vid">
-                    Video
-                   </h1>
-                </button>
-            </div>
-            <div class="w-full" id="down"> 
-                <form action="">
-                    <input type="text" name="" required placeholder="Music name" class="border-2 mt-3 placeholder:text-xs rounded outline-none w-full p-2" id="">
-                    <h1 class="mt-3 font-bold text-gray-500">
-                        Image here
-                    </h1>
-                    <input type="file" name="" required accept="audio" class="border-2 mt-3 rounded outline-none w-full p-2" id="">
-                    <h1 class="mt-3 font-bold text-gray-500">
-                        Audio here
-                    </h1>
-                    <input type="file" name="" accept="audio" class="border-2 mt-3 rounded outline-none w-full p-2" id="">
-                    <button class="w-full p-4 bg-[black] rounded outline-none text-white font-bold text-xs mt-3">
-                        Upload Now
+        <br>
+        <section class="finder">
+            <section class="w-full m-auto   bg-[#ffffff] p-2">
+                <h1 class="text-[red] text-xs text-center p-2" id="downs">
+                    <span>Note:</span> Sum of 50$ apply in uplaoding each Music
+                </h1>
+                <h1 class="text-[red] text-xs text-center hidden p-2" id="deos">
+                    <span>Note:</span> Sum of 50$ apply in uplaoding each Video
+                </h1>
+                <div class="w-full flex justify-between">
+                    <button class="bg-[black] text-white text-xs font-bold p-2 rounded w-2/5 outline-none" id="song">
+                        <h1 id="sog">
+                            Music
+                        </h1>
                     </button>
-                </form>
-            </div>
-            <div class="w-full hidden" id="deo"> 
-                <form action="">
-                    <input type="text" name="" required placeholder="Video name" class="border-2 placeholder:text-xs mt-3 rounded outline-none w-full p-2" id="">  
-                    <input name="" placeholder="Paste the video embed link from youtube here"  class="border-2 placeholder:text-xs mt-5  rounded outline-none w-full p-2" id="">
-                    <h1 class="text-center text-xs p-2 text-gray-400">
-                      <a href="https://www.youtube.com/watch?v=ZR2q0EgYbKM" target="_blank">Watch how to copy youtube video embeded link here</a>
-                    </h1>
-                    <h1 class="text-xs font-bold text-[#7a7a7a] mt-3">
-                       Video Youtube link here
-                    </h1>
-                    <input type="text" required class="placeholder:text-xs border-2 p-2 rounded mt-3 w-full outline-none" placeholder="Paste youtube embeded video link here" name="" id="">
-                    <button class="w-full p-4 bg-[black] rounded outline-none text-white font-bold text-xs mt-3">
-                        Upload Now
+                    <button class="bg-[#ffffff] border-2 text-xs  text-black font-bold w-2/5 rounded outline-none"
+                        id="video">
+                        <h1 id="vid">
+                            Video
+                        </h1>
                     </button>
-                </form>
-            </div> 
-    </section>
+                </div>
+                <div class="w-full" id="down">
+                        <input type="text" name=""  required placeholder="Music name"
+                            class="border-2 mt-3 placeholder:text-xs rounded outline-none w-full p-2" id="musname">
+                        <h1 class="mt-3 font-bold text-gray-500">
+                            Image here
+                        </h1>
+                        <input type="file" name=""  required accept="audio"
+                            class="border-2 mt-3 rounded outline-none w-full p-2" id="secondersrs">
+                        <h1 class="mt-3 font-bold text-gray-500">
+                            Audio here
+                        </h1>
+                        <input type="file" name="" accept="video" class="border-2 mt-3 rounded outline-none w-full p-2"
+                            id="lastlaster">
+                        <button id="wat"
+                            class="w-full p-4 bg-[black] rounded outline-none text-white font-bold text-xs mt-3">
+                            <span id="uploa">
+                                Upload Now
+                            </span>
+                            <div class="loaders hidden" id="loadings">
+                            </div>
+                        </button>
+                </div>
+                <div class="w-full hidden" id="deo">
+                    
+                        <input type="text" name="" required placeholder="Video name"
+                            class="border-2 placeholder:text-xs mt-3 rounded outline-none w-full p-2" id="">
+                        <input name="" placeholder="Paste the video embed link from youtube here"
+                            class="border-2 placeholder:text-xs mt-5  rounded outline-none w-full p-2" id="">
+                        <h1 class="text-center text-xs p-2 text-gray-400">
+                            <a href="https://www.youtube.com/watch?v=ZR2q0EgYbKM" target="_blank">Watch how to copy
+                                youtube video embeded link here</a>
+                        </h1>
+                        <h1 class="text-xs font-bold text-[#7a7a7a] mt-3">
+                            Video Youtube link here
+                        </h1>
+                        <input type="text" required
+                            class="placeholder:text-xs border-2 p-2 rounded mt-3 w-full outline-none"
+                            placeholder="Paste youtube embeded video link here" name="" id="">
+                        <button id="wats"
+                            class="w-full p-4 bg-[black] rounded outline-none text-white font-bold text-xs mt-3">
+                            <span id="uploas">
+                                Upload Now
+                            </span>
+                            <div class="loaders hidden" id="loadinge">
+                            </div>
+                        </button>
+                </div>
+            </section>
         </section>
     </div>
 </body>
 <script src="/js/uplaod.js"></script>
+
 </html>

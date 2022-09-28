@@ -9,16 +9,15 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="/img/wall.jpeg" type="image/x-icon">
 </head>    
- <section class="flex items-center justify-center w-full h-screen suld bg-white indes fixed">
-    <div>
-       <h1 class=" font-bold gop underline text-4xl leading-1">
-           GOPLAY
-       </h1> 
-       <h1 class="text-center mt-2 font-bold gose text-[#bbbbbb]">
-           Loading <br> Dashboard
-       </h1>
+<section class="flex items-center justify-center w-full h-screen suld bg-white indes fixed">
+    <div>  
+        <div class="loader"> 
+        </div>  
+        <h1 class="text-center  text-xs p-2 font-bold   text-[#bbbbbb]">
+            Loading  
+        </h1>
     </div>
-   </section>
+</section> 
 <body>
     <section class=" w-full h-14 inde bg-[white] fixed items-center flex bottom-0 " id="adside">    
         <img src="/img/stage.jpeg" alt="" class="w-full h-full"> 
@@ -30,8 +29,7 @@
                 <h1 class="font-bold text-xl text-gray-400 cursor-pointer" id="navss">X</h1>
             </div>  
             <a href="">
-                <div
-                    class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
+                <div  class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
                     <h1 class="text-xs">Visit Developer</h1>
                 </div>
             </a> 
@@ -47,20 +45,26 @@
                     <h1 class="text-xs">Videos</h1>
                 </div>
             </a> 
-            <a href="">
+            <a href="./index.html">
                 <div
                     class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
                     <h1 class="text-xs">Home</h1>
                 </div>
-            </a>
+            </a> 
+            <a href="./feed.html">
+                <div
+                    class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
+                    <h1 class="text-xs">feeds</h1>
+                </div>
+            </a>  
             <a href="./fileupload.html">
                 <div
                     class="flex h-10 transition ease-in-out hover:bg-gray-200 cursor-pointer rounded mt-2 w-60 m-auto  justify-around items-center">
                     <h1 class="text-xs">Upload files</h1>
                 </div>
             </a>  
-            <span class="w-3/4 rounded mt-5 text-xs justify-center  select-all bg-[#dddddd] m-auto flex p-3">
-                <h1     >
+            <span class="w-3/4 lg:w-full rounded mt-5 text-xs justify-center  select-all bg-[#dddddd] m-auto flex p-3">
+                <h1>
                 goplay/Okechukwu//9843578484/play
                 </h1>
             </span>
@@ -164,7 +168,7 @@
             </h1> 
         </div>
         <div class="w-1/4 m-auto mt-28 obeyt"  id="allos">
-            <div class="w-full  bg-white rounded-lg romis p-2">
+            <div class="w-full  bg-white rounded-lg romis lg:p-4  p-1">
                 <h1 class="text-center mb-6 font-bold mt-1">
                     Dashboard
                 </h1>
@@ -190,32 +194,32 @@
                     </div>
                     </form>
                 </div>
-                <div class="w-11/12 followdiv mt-5 m-auto flex items-center justify-between  ">
-                    <div class="w-32 h-32 beloi rounded-full">
-                        <img src="/img/hand.jpeg" class="rounded-full bahi w-32 h-32" alt="">
+                <div class="w-11/12   mt-5 m-auto flex items-center justify-between ">
+                    <div class="w-16 h-16  md:w-20  md:h-20 rounded-full lg:w-20 lg:h-20 ">
+                        <img src="/img/hand.jpeg"  alt="" class="rounded-full h-16 md:h-20 lg:h-20">
                     </div>
                     <div class="w-1 h-10 bg-[black] "></div>
                     <div>
                         <h1 class="font-bold text-xl ome">
                             11
                         </h1>
-                        <h1 class="text-gray-600 text-sm omelo">Total songs</h1>
+                        <h1 class="text-gray-600 lg:text-xs omelo">Total songs</h1>
                     </div>
                     <div>
                         <h1 class="font-bold text-xl ome">
                             20
                         </h1>
-                        <h1 class="text-gray-600 text-sm omelo">Total videos</h1>
+                        <h1 class="text-gray-600  lg:text-xs omelo">Total videos</h1>
                     </div>
                     <div>
                         <h1 class="font-bold text-xl ome">
                             11K
                         </h1>
-                        <h1 class="text-gray-600 text-sm omelo">followers</h1>
+                        <h1 class="text-gray-600  lg:text-xs omelo">followers</h1>
                     </div>
                 </div>
                 <div class="flex mt-5 items-center" id="dropshow">
-                    <h1 class="ml-5  font-bold capitalize underline cursor-pointer text-sm text-gray-900 lio">Twingle-f idr</h1>
+                    <h1 class="ml-5  font-bold capitalize underline cursor-pointer text-xs md:text-xs text-gray-900  ">Twingle-f idr</h1>
                     <h1 class=" font-bold   ml-2 cursor-pointer rote text-gray-900">
                         >
                     </h1>
@@ -255,16 +259,16 @@
                     </div>
                 </div>
                 <div class="w-full flex youare justify-around font-bold text-white p-1 mt-3 text-sm">
-                    <button class="w-32 bg-[#000000] p-3 rounded-lg  outline-none songer" id="song">Songs</button>
-                    <button class="w-32 bg-[#000000] p-2 rounded-lg outline-none songer" id="vid">Videos</button>
-                    <button class="w-32 bg-[#000000] p-2 rounded-lg outline-none songer"><a
+                    <button class="w-32 bg-[#000000] p-3 rounded-lg text-xs md:text-xs lg:text-xs xl:text-xs outline-none songer" id="song">Songs</button>
+                    <button class="w-32 bg-[#000000] p-2 rounded-lg text-xs md:text-xs lg:text-xs xl:text-xs  outline-none songer" id="vid">Videos</button>
+                    <button class="w-32 bg-[#000000] p-2 rounded-lg text-xs md:text-xs lg:text-xs xl:text-xs  outline-none songer"><a
                             href="./index.html">Home</a></button>
                 </div>
                 <div class="w-full youare flex font-bold justify-around p-1 mt-3 text-white text-sm">
-                    <button class="w-32 bg-[#000000] p-3 rounded-lg outline-none songer"><a href="./usernotice.html">Notification</a></button>
+                    <button class="w-32 bg-[#000000] p-3 rounded-lg outline-none text-xs songer"><a href="./usernotice.html">Notification</a></button>
                     <button class="w-32 text-xs bg-[#000000] p-2 rounded-lg outline-none songeri" id="dropshower">Top
                         videos/Musics</button>
-                    <button class="w-32 bg-[#000000] p-2 rounded-lg outline-none songer"><a href="./fileupload.html">Upload</a></button>
+                    <button class="w-32 bg-[#000000] p-2 rounded-lg text-xs  outline-none songer"><a href="./fileupload.html">Upload</a></button>
                 </div>
                 <div class="w-full yull bg-[#e5e7eb] p-2 mt-3 rounded-lg hidden" id="dropin">
                     <h1 class="text-center text-sm text-gray-600 p-1">

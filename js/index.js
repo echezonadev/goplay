@@ -25,5 +25,4 @@ diser.addEventListener("click",()=>{
 
  dis.addEventListener("click" ,()=>{
      disnab.style.display="none"
- })
- FontFaceSetLoadEvent
+ }) 
