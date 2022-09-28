@@ -179,14 +179,6 @@
  }
  .inde{
    z-index: 22;
- }
- .bonch{
-     display: flex;
-     align-items: center;
-     background-size: 100% 100%;
-     background-image: url("/img/wild.jpeg");
-     background-color: rgba(0, 0, 0, 0.336);
-     background-blend-mode: multiply; 
  } 
  .opert::-webkit-scrollbar{ 
      display: none;
@@ -492,11 +484,6 @@
     } 
     .opert::-webkit-scrollbar{
     display: none;
-    }
-    .fort{
-        width: 100%;
-        margin: auto;
-        border-radius: 0px;
     } 
     .obey{
      width: 100%;
@@ -518,9 +505,6 @@
     }
     .obe{
         padding:0px;
-    }
-    .acct{
-        font-size: 12px;
     } 
     .clow{ 
         width: 100%;
