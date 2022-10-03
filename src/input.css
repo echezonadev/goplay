@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;   
+
+.slop{
+    z-index: 222;
+}
+.remio{
+    box-shadow: 0px 0px 20px 5px  rgb(209, 209, 209);
+}
+.romios{
+    box-shadow: 0px 0px 20px 5px  rgb(209, 209, 209);
+}
+.romioss{
+    box-shadow: 0px 0px 20px 5px  rgb(209, 209, 209);
+}
+.alison::-webkit-scrollbar{
+    display: none;
+}
+.def{ 
+    font-size:10px;
+}
+  .loader {
+    border: 3px solid rgb(218, 218, 218);
+    border-top: 5px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin: auto;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(10deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loaders {
+    border: 3px solid rgb(255, 255, 255);
+    border-top: 5px solid rgb(70, 70, 70);
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin: auto;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(10deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+} 

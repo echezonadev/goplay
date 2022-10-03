@@ -6,86 +6,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goplay/Feeds</title>
-    <link href="/dist/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link href="/dist/output.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="./input.css">
     <link rel="shortcut icon" href="/img/wall.jpeg" type="image/x-icon">
 </head>
+<section id="youadser" onclick="adst()"
+    class="w-0 slop  overflow-hidden fixed bg-[#00000081] flex items-center justify-center h-screen upert sloper">
+    <div class="w-3/4 md:w-1/2 lg:w-96 overflow-hidden   bg-[white] p-2 rounded">
+        <p class="text-[red] text-center font-bold  p-0 ">
+            Note
+        </p>
+        <h1 class="text-xs text-[#5f5c5c] text-center ">
+            Plaese note articles are displayed according to artist your are following in that case you can only see an
+            artist you are following articles
+        </h1>
+        <div class="w-3/5 m-auto mt-5">
+            <a href="./find.html"> <button
+                    class="w-full  outline-none text-xs text-center bg-black p-3 text-white rounded ">
+                    Follow Artists
+                </button> </a>
+        </div>
+    </div>
+    <br>
+    <br>
+</section>
 <section
-    class="w-10 p-2 flex items-center justify-center font-bold bg-[black] fixed bottom-16 rounded cursor-pointer text-white text-xs  right-2 lg:left-2/3"
+    class="w-10 p-2 flex items-center justify-center slop font-bold bg-[black] fixed bottom-16 rounded cursor-pointer text-white text-xs  right-2 lg:left-2/3"
     id="upergo">
     up
-</section> 
-<body class="bg-[white] w-full   h-screen">
-    <br class="hidden lg:block">
-    <section title="laoding" class="flex items-center justify-center w-full h-screen suld bg-white indes fixed">
+</section>
+
+<body class="bg-[white] w-full h-screen"> 
+    <section title="laoding" class="flex  items-center justify-center w-full h-screen suld bg-white slop fixed" id="inde">
         <div>
             <div class="loader">
             </div>
             <h1 class="text-center  text-xs p-2 font-bold   text-[#bbbbbb]">
-                Loading   
+                Loading
             </h1>
         </div>
     </section>
-    <main class="m-auto bg-[white] lg:mt-1 lg:w-full xl:w-4/5 overflow-hidden w-full flex h-screen">
+    <main class="m-auto bg-[white] md:p-5 lg:w-full xl:w-4/5 overflow-hidden w-full flex h-screen">
         <!-- start of left side -->
         <section class=" overflow-scroll alison  bg-[white] hidden lg:block p-4" style="width: 25%;">
-             <div>
-            <h1 class="text-center p-2 text-gray-600  text-xs">
-            Top Artist of Goplay
-            </h1> 
-            <div class="full h-44 flex  border-2 rounded-lg"> 
-                <div class="w-full h-44   overflow-hidden   rounded" id="goone">
-                   <div class="w-full  ">
-                       <div class="w-1/2 m-auto">
-                           <img src="/img/wild.jpeg" class="w-full  mt-2 h-20 rounded-xl " alt="" srcset="">
-                       </div>
-                       <h1  class="text-xs text-center underline capitalize mt-2"> 
-                               Lil duck-(otf) 
-                       </h1>
-                   </div>
-                   <div class="w-5/6 m-auto ">  
-                    <a href="./profiles.html"> 
-                       <button class="bg-blac text-xs rounded mt-2 w-full text-white p-2 bg-[black] "> 
-                        View profile 
-                       </button> </a>
-                   </div>
+            <div>
+                <h1 class="text-center p-2 text-gray-600  text-xs">
+                    Top Artist of Goplay
+                </h1>
+                <div class="full h-44 flex  border-2 rounded-lg">
+                    <div class="w-full h-44   overflow-hidden   rounded" id="goone">
+                        <div class="w-full  ">
+                            <div class="w-1/2 m-auto">
+                                <img src="/img/wild.jpeg" class="w-full  mt-2 h-20 rounded-xl " alt="" srcset="">
+                            </div>
+                            <h1 class="text-xs text-center underline capitalize mt-2">
+                                Lil duck-(otf)
+                            </h1>
+                        </div>
+                        <div class="w-5/6 m-auto ">
+                            <a href="./profiles.html">
+                                <button class="bg-blac text-xs rounded mt-2 w-full text-white p-2 bg-[black] ">
+                                    View profile
+                                </button> </a>
+                        </div>
+                    </div>
+                    <div class="w-0 h-44    rounded" id="gotwo">
+                        <div class="w-full h-40   overflow-hidden   rounded" id="goone">
+                            <div class="w-full  ">
+                                <div class="w-1/2 m-auto">
+                                    <img src="/img/wild.jpeg" class="w-full  mt-2 h-20 rounded-xl " alt="" srcset="">
+                                </div>
+                                <h1 class="text-xs text-center underline capitalize mt-2">
+                                    Lil duck-(otf)
+                                </h1>
+                            </div>
+                            <div class="w-5/6 m-auto "><a href="./profiles.html">
+                                    <button class="bg-blac text-xs rounded mt-2 w-full text-white p-2 bg-[black] ">
+                                        View profile
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="w-0 h-44    rounded" id="gotwo">
-                    <div class="w-full h-40   overflow-hidden   rounded" id="goone">
-                   <div class="w-full  ">
-                       <div class="w-1/2 m-auto">
-                           <img src="/img/wild.jpeg" class="w-full  mt-2 h-20 rounded-xl " alt="" srcset="">
-                       </div>
-                       <h1  class="text-xs text-center underline capitalize mt-2"> 
-                               Lil duck-(otf) 
-                       </h1>
-                   </div>
-                   <div class="w-5/6 m-auto "><a href="./profiles.html"> 
-                       <button class="bg-blac text-xs rounded mt-2 w-full text-white p-2 bg-[black] ">
-                         View profile 
-                       </button></a>
-                   </div>
-                </div>
-               </div> 
-           </div>
-        </div> 
-            <h1 class="text-center p-3 mt-2 text-zinc-600 text-sm">Popular Tags</h1>
-            <div class="w-full p-4 bg-[white]  ">
+            </div>
+            <h1 class="text-center p-3 mt-2 text-zinc-600 text-xs">Popular Tags</h1>
+            <div class="w-full p-4 bg-[white] border-2 ">
                 <div class="w-full flex  text-sm justify-around">
                     <div
-                        class="w-1/4 p-2 text-gray-500 font-bold border-2  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
+                        class="w-1/4 p-2 text-gray-500 font-bold border-2 def border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
                         <a href="">
                             <h1>Burna</h1>
                         </a>
                     </div>
                     <div
-                        class="w-1/4 p-2 text-gray-500 font-bold border-2  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
+                        class="w-1/4 p-2 text-gray-500 font-bold border-2 def  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
                         <a href="">
                             <h1>Osake</h1>
                         </a>
                     </div>
                     <div
-                        class="w-1/4 p-2 text-gray-500 font-bold border-2  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
+                        class="w-1/4 p-2 text-gray-500 font-bold border-2  def border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
                         <a href="">
                             <h1>Fashions</h1>
                         </a>
@@ -94,19 +114,19 @@
                 <br>
                 <div class="w-full flex text-sm  justify-around">
                     <div
-                        class="w-1/4 p-2  text-gray-500 font-bold border-2  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
+                        class="w-1/4 p-2  text-gray-500 font-bold border-2 def  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
                         <a href="">
                             <h1>Burna</h1>
                         </a>
                     </div>
                     <div
-                        class="w-1/4  text-gray-500 font-bold border-2  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
+                        class="w-1/4  text-gray-500 font-bold border-2 def  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
                         <a href="">
                             <h1>Osake</h1>
                         </a>
                     </div>
                     <div
-                        class="w-1/4  text-gray-500 font-bold border-2  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
+                        class="w-1/4  text-gray-500 font-bold border-2 def  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
                         <a href="">
                             <h1>Fashions</h1>
                         </a>
@@ -115,65 +135,30 @@
                 <br>
                 <div class="w-full flex text-sm  justify-around">
                     <div
-                        class="w-1/4 p-2 text-gray-500 font-bold border-2  border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
+                        class="w-1/4 p-2 text-gray-500 font-bold border-2  def border-gray-400 flex items-center justify-center fash cursor-pointer hover:underline">
                         <a href="">
                             <h1>Davido</h1>
                         </a>
                     </div>
                     <div
-                        class="w-1/4  text-gray-500 font-bold border-2  border-gray-400 flex items-center justify-center  fash cursor-pointer hover:underline">
+                        class="w-1/4  text-gray-500 font-bold border-2 def border-gray-400 flex items-center justify-center  fash cursor-pointer hover:underline">
                         <a href="">
                             <h1>Olamide</h1>
                         </a>
                     </div>
                 </div>
-            </div>
-            <h1 class="text-center p-3 mt-2 text-zinc-600 text-sm">Top videos</h1>
-            <div class="w-full bg-[#ebebeb] p-2 rounded-lg">
-                <div class="w-full romios mt-2  flex rounded-lg bg-[white]">
-                    <div class="w-1/4 rounded-lg  p-1  nive">
-                        <img src="/img/man.jpeg" class="rounded-lg h-24  " alt="">
-                    </div>
-                    <div class="flex letr">
-                        <div class=" p-2 preve">
-                            <h1
-                                class="text-xs mt-5 tyre  hover:underline hover:text-black transition text-gray-600 tracking">
-                                <a href="./downvideo.html">
-                                    Zinoleesky ft tiwasavage hold something</a>
-                            </h1>
-                            <h1 class="text-xs mt-3 gey text-gray-600">Video</h1>
-                        </div>
-                        <div class="flex items-center w-1/4 geys  text-xs ">
-                            <h1 class="text-gray-600 mogis">12/09/2022 </h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full romios mt-2  flex rounded-lg bg-[white]">
-                    <div class="w-1/4 rounded-lg  p-1  nive">
-                        <img src="/img/man.jpeg" class="rounded-lg h-24  " alt="">
-                    </div>
-                    <div class="flex letr">
-                        <div class=" p-2 preve">
-                            <h1
-                                class="text-xs mt-5 tyre hover:underline hover:text-black transition text-gray-600 tracking">
-                                <a href="./downvideo.html">
-                                    Zinoleesky ft tiwasavage hold something</a>
-                            </h1>
-                            <h1 class="text-xs mt-3 gey text-gray-600">Video</h1>
-                        </div>
-                        <div class="flex items-center w-1/4 geys  text-xs ">
-                            <h1 class="text-gray-600 mogis">12/09/2022 </h1>
-                        </div>
-                    </div>
-                </div>
+            </div> 
         </section>
         <!-- end of left side -->
         <!-- start of center -->
         <section class="bg-[white] w-full lg:w-3/6">
-            <div class="fixed md:w-4/5 lg:fixed   md:ml-20 lg:ml-0  bg-[white] w-full lg:w-2/4 rounded xl:w-2/5"
+            <div id="intos">
+            </div>
+            <!-- start of header side   -->
+            <header class="border-2 md:w-[80%] md:m-auto bg-[white] w-full lg:w-full rounded xl:w-full"
                 style="box-shadow: 0px 0px 20px 4px rgb(209, 209, 209);">
                 <div>
-                    <h1 class="text-black font-bold text-2xl cursor-pointer text-left ml-3 mt-3 underline">
+                    <h1 class="text-black font-bold mt-2 text-2xl cursor-pointer text-left ml-3    underline">
                         Goplay
                     </h1>
                 </div>
@@ -193,7 +178,7 @@
                             <div class="w-full mt-1  rounded h-2 bg-black"></div>
                         </div>
                         <input type="search" required class="p-3 outline-none w-2/3  rounded-lg border-2 "
-                            placeholder="Search ">
+                            placeholder="Search artists ">
                         <a href="./search.html">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                                 class=" h-6 w-6 hover:underline     font-bold hover:text-gray-300 transition ease-in-out  text-[#8b8b8b] ml-2 "
@@ -204,49 +189,40 @@
                             </svg>
                         </a>
                     </nav>
-                    <div class="w-full p-2 flex justify-between  ">
+                    <div class="w-full lg:p-2 flex  p-3 justify-between  ">
                         <button id="vider"
-                            class="w-28 bg-[black] text-white p-2 rounded outline-none text-xs font-bold">Musics</button>
+                            class="w-24 bg-[black] text-white p-2 rounded outline-none text-xs font-bold">Musics</button>
                         <button id="lokers"
-                            class="w-28 bg-[white] border-2 p-2 text-black   rounded outline-none text-xs font-bold">Videos</button>
+                            class="w-24 bg-[white] border-2 p-2 text-black   rounded outline-none text-xs font-bold">Videos</button>
+                        <button id="eeder"
+                            class="w-20 bg-[white] border-2 p-2 text-black   rounded outline-none text-xs font-bold">Albums</button>  
                     </div>
-                    <div class="w-full bg-[#e7e7e7] overflow-scroll alison  h-0  mt-2" id="slayer">
-                        <div class="p-2 flex justify-between ">
+                    <div class="w-full bg-[#e7e7e7]   overflow-scroll alison h-0 " id="slayer">
+                        <div class="p-4 flex justify-between ">
                             <h1 class="capitalize w-fit rounded-md hover:underline text-xs bg-white p-2">
                                 <a href="./userdashboard.html">
                                     My dashboard
                                 </a>
-                            </h1>
-                            <h1 class="capitalize w-fit rounded-md ml-2 hover:underline text-xs bg-white p-2">
-                                <a href="./index.html">
-                                    home
-                                </a>
-                            </h1>
-                            <h1 class="capitalize w-fit rounded-md ml-2 hover:underline text-xs bg-white p-2">
-                                <a href="./musics.html">
-                                    musics
-                                </a>
-                            </h1>
-                            <h1 class="capitalize w-fit rounded-md ml-2 hover:underline text-xs bg-white p-2">
-                                <a href="./video.html">
-                                    videos
-                                </a>
-                            </h1>
+                            </h1>  
                             <h1 class="capitalize w-fit rounded-md ml-2 hover:underline text-xs bg-white p-2">
                                 <a href="./fileupload.html">
                                     upload now
                                 </a>
                             </h1>
-                        </div> 
-                        <div class="p-2 flex justify-between "> 
                             <h1 class="capitalize w-fit rounded-md ml-0 hover:underline text-xs bg-white p-2">
                                 <a href="./usernotice.html">
-                                    notification
+                                    Notifications
                                 </a>
                             </h1>
-                        </div>
+                            <h1 class="capitalize w-fit rounded-md ml-2 hover:underline text-xs bg-white p-2"
+                                id="findart">
+                                <a href="./find.html">
+                                    Find artists
+                                </a>
+                            </h1> 
+                        </div>  
                         <h1 class="text-xs text-center -mb-5">
-                            Top music of  Goplay
+                            Top music of Goplay
                         </h1>
                         <div class="w-full md:w-full p-2 mt-0">
                             <div class="w-full m-auto flex md:w-full  mt-6 bg-[#ffffff] p-2 rounded-lg">
@@ -254,32 +230,169 @@
                                     <img src="/img/ugo.jpeg" class="rounded-lg w-full h-24" alt="">
                                 </div>
                                 <div class=" w-4/5 rounded-lg p-1">
-                                    <h1 class="font-bold text-right underline text-xs mb-1 cursor-pointer text-gray-700">
+                                    <h1
+                                        class="font-bold text-right underline text-xs mb-1 cursor-pointer text-gray-700">
                                         GOPLAY
                                     </h1>
-                                    <div> 
-                                    <h1 class="text-sm text-center terc text-gray-600">   
-                                        davido saky move by youngjohn davido saky  
-                                    </h1>
-                                    <audio src="/asset/audio/Melvitto_Ft_Wande_Coal_-_Gentility_Speed_Up.mp3" controls
-                                        class="w-full mt-5  ">
-                                    </audio>
-                                    </div> 
+                                    <div>
+                                        <h1 class="text-sm text-center terc text-gray-600">
+                                            davido saky move by youngjohn davido saky
+                                        </h1>
+                                        <audio src="/asset/audio/Melvitto_Ft_Wande_Coal_-_Gentility_Speed_Up.mp3"
+                                            controls class="w-full mt-5  ">
+                                        </audio>
+                                    </div>
                                 </div>
                             </div>
                             <h1 class="font-bold mt-4 text-[green] text-center underline">
                                 <a href="" download="">Downlaod Now</a>
-                                </h1>
+                            </h1>
                         </div>
                     </div>
                 </div>
-            </div>
-            <section class="  h-screen overflow-scroll alison  md:w-9/12 md:m-auto md:mt-40 lg:w-full" id="voiced">
+            </header>
 
-                <div id="intos">
-                </div>
-                <section class="border-2 m-2 rounded mt-56 md:mt-24 xl:mt-20    p-2">
-                    <div class="w-full flex items-center justify-between">
+            <!-- ends of hearder side -->
+            <!-- start of music section -->
+            <section class="  h-screen overflow-scroll alison p-2  md:w-9/12 md:m-auto  lg:w-full" id="voiced">
+                <h1 class="text-xs p-2 font-bold">
+                Your may know
+            </h1>
+                <!-- starting of follow div -->
+                <section class="w-[full] overflow-x-scroll flex h-[220] overflow-y-hidden items-center "id="goopert">  
+                    <div class="w-[600%] p-2 bg-white">
+                        <div class="w-56 ">
+                            <div class="w-[95%] m-auto rounded h-[220px] border-2 p-2">
+                                <div class="w-[100%] flex items-center  justify-center m-auto">
+                                    <img src="/img/wild.jpeg" alt="" class="h-[100px] rounded-full w-[100px]">
+                                </div>  
+                                <div class="w-3/5 m-auto text-xs mt-4">
+                                    <a href="">
+                                        <h2 class="text-center p-2 font-bold text-xs">
+                                            Kodack Black
+                                        </h2>
+                                    </a>
+                                    <a href="./profiles.html"> <button
+                                            class="w-full  outline-none text-xs text-center bg-black p-2 text-white rounded ">
+                                            Follow
+                                        </button> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="w-[600%] p-2 bg-white">
+                        <div class="w-56 ">
+                            <div class="w-[95%] m-auto rounded h-[220px] border-2 p-2">
+                                <div class="w-[100%] flex items-center  justify-center m-auto">
+                                    <img src="/img/monk.jpeg" alt="" class="h-[100px] rounded-full w-[100px]">
+                                </div>  
+                                <div class="w-3/5 m-auto text-xs mt-4">
+                                    <a href="">
+                                        <h2 class="text-center p-2 font-bold text-xs">
+                                            Kodack Black
+                                        </h2>
+                                    </a>
+                                    <a href="./profiles.html"> <button
+                                            class="w-full  outline-none text-xs text-center bg-black p-2 text-white rounded ">
+                                            Follow
+                                        </button> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="w-[600%] p-2 bg-white">
+                        <div class="w-56 ">
+                            <div class="w-[95%] m-auto rounded h-[220px] border-2 p-2">
+                                <div class="w-[100%] flex items-center  justify-center m-auto">
+                                    <img src="/img/monk.jpeg" alt="" class="h-[100px] rounded-full w-[100px]">
+                                </div>  
+                                <div class="w-3/5 m-auto text-xs mt-4">
+                                    <a href="">
+                                        <h2 class="text-center p-2 font-bold text-xs">
+                                            Kodack Black
+                                        </h2>
+                                    </a>
+                                    <a href="./profiles.html"> <button
+                                            class="w-full  outline-none text-xs text-center bg-black p-2 text-white rounded ">
+                                            Follow
+                                        </button> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="w-[600%] p-2 bg-white">
+                        <div class="w-56 ">
+                            <div class="w-[95%] m-auto rounded h-[220px] border-2 p-2">
+                                <div class="w-[100%] flex items-center  justify-center m-auto">
+                                    <img src="/img/monk.jpeg" alt="" class="h-[100px] rounded-full w-[100px]">
+                                </div>  
+                                <div class="w-3/5 m-auto text-xs mt-4">
+                                    <a href="">
+                                        <h2 class="text-center p-2 font-bold text-xs">
+                                            Kodack Black
+                                        </h2>
+                                    </a>
+                                    <a href="./profiles.html"> <button
+                                            class="w-full  outline-none text-xs text-center bg-black p-2 text-white rounded ">
+                                            Follow
+                                        </button> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="w-[600%] p-2 bg-white">
+                        <div class="w-56 ">
+                            <div class="w-[95%] m-auto rounded h-[220px] border-2 p-2">
+                                <div class="w-[100%] flex items-center  justify-center m-auto">
+                                    <img src="/img/monk.jpeg" alt="" class="h-[100px] rounded-full w-[100px]">
+                                </div>  
+                                <div class="w-3/5 m-auto text-xs mt-4">
+                                    <a href="">
+                                        <h2 class="text-center p-2 font-bold text-xs">
+                                            Kodack Black
+                                        </h2>
+                                    </a>
+                                    <a href="./profiles.html"> <button
+                                            class="w-full  outline-none text-xs text-center bg-black p-2 text-white rounded ">
+                                            Follow
+                                        </button> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="w-[600%] p-2 bg-white">
+                        <div class="w-56 ">
+                            <div class="w-[95%] m-auto rounded h-[220px] border-2 p-2">
+                                <div class="w-[100%] flex items-center  justify-center m-auto">
+                                    <img src="/img/man.jpeg" alt="" class="h-[100px] rounded-full w-[100px]">
+                                </div>  
+                                <div class="w-3/5 m-auto text-xs mt-4">
+                                    <a href="">
+                                        <h2 class="text-center p-2 font-bold text-xs">
+                                            Kodack Black
+                                        </h2>
+                                    </a>
+                                    <a href="./profiles.html"> <button
+                                            class="w-full  outline-none text-xs text-center bg-black p-2 text-white rounded ">
+                                            Follow
+                                        </button> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="w-[6%] p-2 bg-white">
+                        <div class="w-32 flex items-center justify-center text-xs underline"> 
+                            <h1>
+                                <a href="">
+                                    More
+                                </a>
+                            </h1>
+                        </div>
+                    </div>  
+                </section>
+<!-- ends of follow div -->
+                <section class="border-2 w-full mt-3 rounded ">
+                    <div class="w-full flex items-center p-2 justify-between">
                         <div class="flex items-center">
                             <div class="w-10 h-10 rounded-full">
                                 <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
@@ -340,673 +453,12 @@
                             Now</a>
                     </h1>
                     <br>
-                </section>
-                <section class="border-2 m-2 rounded   p-2">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-11/12 m-auto flex md:w-3/4 items-center remio mt-6 bg-[#ffffff] p-2 rounded-lg">
-                        <div class="w-24  rounded-xl p-2">
-                            <img src="/img/ugo.jpeg" class="rounded-lg w-full h-24" alt="">
-                        </div>
-                        <div class=" w-4/5 rounded-lg p-1">
-                            <h1 class="font-bold text-right underline text-xs mb-1 cursor-pointer text-gray-700">
-                                GOPLAY
-                            </h1>
-                            <h1 class="text-sm text-center terc text-gray-600">
-                                davido saky move by youngjohn
-                                davido saky move by youngjohn
-                                davido saky move by youngjohn
-                            </h1>
-                            <audio src="/asset/audio/Melvitto_Ft_Wande_Coal_-_Gentility_Speed_Up.mp3" controls
-                                class="w-full mt-5  ">
-                            </audio>
-
-                        </div>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <h1 class=" text-sm font-bold text-center mt-2 cursor-pointer underline text-green-900">
-                        <a href=""
-                            download="Rebuilding the Vercel Dashboard with Tailwind CSS (Part 2)_1080p.mp4">Downlaod
-                            Now</a>
-                    </h1>
-                    <br>
-                </section>
-                <section class="border-2 m-2 rounded   p-2">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-11/12 m-auto flex md:w-3/4 items-center remio mt-6 bg-[#ffffff] p-2 rounded-lg">
-                        <div class="w-24  rounded-xl p-2">
-                            <img src="/img/ugo.jpeg" class="rounded-lg w-full h-24" alt="">
-                        </div>
-                        <div class=" w-4/5 rounded-lg p-1">
-                            <h1 class="font-bold text-right underline text-xs mb-1 cursor-pointer text-gray-700">
-                                GOPLAY
-                            </h1>
-                            <h1 class="text-sm text-center terc text-gray-600">
-                                davido saky move by youngjohn
-                                davido saky move by youngjohn
-                                davido saky move by youngjohn
-                            </h1>
-                            <audio src="/asset/audio/Melvitto_Ft_Wande_Coal_-_Gentility_Speed_Up.mp3" controls
-                                class="w-full mt-5  ">
-                            </audio>
-
-                        </div>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <h1 class=" text-sm font-bold text-center mt-2 cursor-pointer underline text-green-900">
-                        <a href=""
-                            download="Rebuilding the Vercel Dashboard with Tailwind CSS (Part 2)_1080p.mp4">Downlaod
-                            Now</a>
-                    </h1>
-                    <br>
-                </section>
-                <section class="border-2 m-2 rounded   p-2">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-11/12 m-auto flex md:w-3/4 items-center remio mt-6 bg-[#ffffff] p-2 rounded-lg">
-                        <div class="w-24  rounded-xl p-2">
-                            <img src="/img/ugo.jpeg" class="rounded-lg w-full h-24" alt="">
-                        </div>
-                        <div class=" w-4/5 rounded-lg p-1">
-                            <h1 class="font-bold text-right underline text-xs mb-1 cursor-pointer text-gray-700">
-                                GOPLAY
-                            </h1>
-                            <h1 class="text-sm text-center terc text-gray-600">
-                                davido saky move by youngjohn
-                                davido saky move by youngjohn
-                                davido saky move by youngjohn
-                            </h1>
-                            <audio src="/asset/audio/Melvitto_Ft_Wande_Coal_-_Gentility_Speed_Up.mp3" controls
-                                class="w-full mt-5  ">
-                            </audio>
-
-                        </div>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <h1 class=" text-sm font-bold text-center mt-2 cursor-pointer underline text-green-900">
-                        <a href=""
-                            download="Rebuilding the Vercel Dashboard with Tailwind CSS (Part 2)_1080p.mp4">Downlaod
-                            Now</a>
-                    </h1>
-                    <br>
-                </section>
-                <section class="border-2 m-2 rounded   p-2">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-11/12 m-auto flex md:w-3/4 items-center remio mt-6 bg-[#ffffff] p-2 rounded-lg">
-                        <div class="w-24  rounded-xl p-2">
-                            <img src="/img/ugo.jpeg" class="rounded-lg w-full h-24" alt="">
-                        </div>
-                        <div class=" w-4/5 rounded-lg p-1">
-                            <h1 class="font-bold text-right underline text-xs mb-1 cursor-pointer text-gray-700">
-                                GOPLAY
-                            </h1>
-                            <h1 class="text-sm text-center terc text-gray-600">
-                                davido saky move by youngjohn
-                                davido saky move by youngjohn
-                                davido saky move by youngjohn
-                            </h1>
-                            <audio src="/asset/audio/Melvitto_Ft_Wande_Coal_-_Gentility_Speed_Up.mp3" controls
-                                class="w-full mt-5  ">
-                            </audio>
-
-                        </div>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <h1 class=" text-sm font-bold text-center mt-2 cursor-pointer underline text-green-900">
-                        <a href=""
-                            download="Rebuilding the Vercel Dashboard with Tailwind CSS (Part 2)_1080p.mp4">Downlaod
-                            Now</a>
-                    </h1>
-                    <br>
-                </section>
-                <section class="border-2 m-2 rounded   p-2">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-11/12 m-auto flex md:w-3/4 items-center remio mt-6 bg-[#ffffff] p-2 rounded-lg">
-                        <div class="w-24  rounded-xl p-2">
-                            <img src="/img/ugo.jpeg" class="rounded-lg w-full h-24" alt="">
-                        </div>
-                        <div class=" w-4/5 rounded-lg p-1">
-                            <h1 class="font-bold text-right underline text-xs mb-1 cursor-pointer text-gray-700">
-                                GOPLAY
-                            </h1>
-                            <h1 class="text-sm text-center terc text-gray-600">
-                                davido saky move by youngjohn
-                                davido saky move by youngjohn
-                                davido saky move by youngjohn
-                            </h1>
-                            <audio src="/asset/audio/Melvitto_Ft_Wande_Coal_-_Gentility_Speed_Up.mp3" controls
-                                class="w-full mt-5  ">
-                            </audio>
-
-                        </div>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <h1 class=" text-sm font-bold text-center mt-2 cursor-pointer underline text-green-900">
-                        <a href=""
-                            download="Rebuilding the Vercel Dashboard with Tailwind CSS (Part 2)_1080p.mp4">Downlaod
-                            Now</a>
-                    </h1>
-                    <br>
-                </section>
-                <h1 class="font-bold text-center mt-2 text-gray-500 text-xs">
+                </section> 
+                <h1 class="font-bold text-center p-4 mt-2 text-gray-500 text-xs">
                     <span>Sponsored by </span>
                     <span>|</span>
                     <span>
-                        &copy; GOPLAY</span>
-                    <h1 class="capitalize text-xs text-center p-2 text-gray-500">
-                        <a href="/src/">
-                            Home | </a>
-                        <a href="./musics.html">
-                            musics | </a>
-                        <a href="./video.html">
-                            videos </a>
-                    </h1>
-                </h1>
-                <div class="hidden md:block">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </div>
-            </section>
-            <section class="mt-40  h-screen overflow-scroll alison  m-2  md:w-9/12 md:m-auto md:mt-40 lg:w-full"
-                id="voicer">
-                <br>
-                <br>
-                <br>
-                <section class="border-2 xl:w-full xl:m-auto mt-5 xl:mt-4 p-2  ">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-full p-2 m-auto">
-                        <h1 class="text-sm p-1 text-center text-gray-600">
-                            davido saky move by youngjohn
-                        </h1>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MefXQvGTYtE"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen class="rounded-lg w-full "></iframe>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <!-- start copy -->
-                    <div id="myInput"
-                        class=" m-auto rounded-lg p-3 w-3/4 text-xs mt-3 select-all text-center outline-none bg-[#dddddd]">
-                        https://youtu.be/MefXQvGTYtE</div>
-                    <br>
-                    <button class="w-full font-bold text-green-700 underline outline-none text-sm" id="dow"><a
-                            href="https://savemedia.website" id="clip" target="_blank">Downlaod Now</a></button>
-                    <!-- ends copy -->
-                </section>
-                <section class="border-2 xl:w-full xl:m-auto mt-5 xl:mt-4 p-2  ">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-full p-2 m-auto">
-                        <h1 class="text-sm p-1 text-center text-gray-600">
-                            davido saky move by youngjohn
-                        </h1>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MefXQvGTYtE"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen class="rounded-lg w-full "></iframe>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <!-- start copy -->
-                    <div id="myInput"
-                        class=" m-auto rounded-lg p-3 w-3/4 text-xs mt-3 select-all text-center outline-none bg-[#dddddd]">
-                        https://youtu.be/MefXQvGTYtE</div>
-                    <br>
-                    <button class="w-full font-bold text-green-700 underline outline-none text-sm" id="dow"><a
-                            href="https://savemedia.website" id="clip" target="_blank">Downlaod Now</a></button>
-                    <!-- ends copy -->
-                </section>
-                <section class="border-2 xl:w-full xl:m-auto mt-5 xl:mt-4 p-2  ">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-full p-2 m-auto">
-                        <h1 class="text-sm p-1 text-center text-gray-600">
-                            davido saky move by youngjohn
-                        </h1>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MefXQvGTYtE"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen class="rounded-lg w-full "></iframe>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <!-- start copy -->
-                    <div id="myInput"
-                        class=" m-auto rounded-lg p-3 w-3/4 text-xs mt-3 select-all text-center outline-none bg-[#dddddd]">
-                        https://youtu.be/MefXQvGTYtE</div>
-                    <br>
-                    <button class="w-full font-bold text-green-700 underline outline-none text-sm" id="dow"><a
-                            href="https://savemedia.website" id="clip" target="_blank">Downlaod Now</a></button>
-                    <!-- ends copy -->
-                </section>
-                <section class="border-2 xl:w-full xl:m-auto mt-5 xl:mt-4 p-2  ">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-full p-2 m-auto">
-                        <h1 class="text-sm p-1 text-center text-gray-600">
-                            davido saky move by youngjohn
-                        </h1>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MefXQvGTYtE"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen class="rounded-lg w-full "></iframe>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <!-- start copy -->
-                    <div id="myInput"
-                        class=" m-auto rounded-lg p-3 w-3/4 text-xs mt-3 select-all text-center outline-none bg-[#dddddd]">
-                        https://youtu.be/MefXQvGTYtE</div>
-                    <br>
-                    <button class="w-full font-bold text-green-700 underline outline-none text-sm" id="dow"><a
-                            href="https://savemedia.website" id="clip" target="_blank">Downlaod Now</a></button>
-                    <!-- ends copy -->
-                </section>
-                <section class="border-2 xl:w-full xl:m-auto mt-5 xl:mt-4 p-2  ">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-full p-2 m-auto">
-                        <h1 class="text-sm p-1 text-center text-gray-600">
-                            davido saky move by youngjohn
-                        </h1>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MefXQvGTYtE"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen class="rounded-lg w-full "></iframe>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <!-- start copy -->
-                    <div id="myInput"
-                        class=" m-auto rounded-lg p-3 w-3/4 text-xs mt-3 select-all text-center outline-none bg-[#dddddd]">
-                        https://youtu.be/MefXQvGTYtE</div>
-                    <br>
-                    <button class="w-full font-bold text-green-700 underline outline-none text-sm" id="dow"><a
-                            href="https://savemedia.website" id="clip" target="_blank">Downlaod Now</a></button>
-                    <!-- ends copy -->
-                </section>
-                <section class="border-2 xl:w-full xl:m-auto mt-5 xl:mt-4 p-2  ">
-                    <div class="w-full flex items-center justify-between">
-                        <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full">
-                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
-                            </div>
-                            <h1 class="capitalize font-bold underline text-xs m-2">
-                                <a href="./profiles.html">
-                                    Twingle-f idr
-                                </a>
-                            </h1>
-                        </div>
-                        <h1 class="text-xs">
-                            12/09/2022
-                        </h1>
-                    </div>
-                    <div class="w-full p-2 m-auto">
-                        <h1 class="text-sm p-1 text-center text-gray-600">
-                            davido saky move by youngjohn
-                        </h1>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MefXQvGTYtE"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen class="rounded-lg w-full "></iframe>
-                    </div>
-                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
-                        <div class="flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            1
-                        </div>
-                    </div>
-                    <!-- start copy -->
-                    <div id="myInput"
-                        class=" m-auto rounded-lg p-3 w-3/4 text-xs mt-3 select-all text-center outline-none bg-[#dddddd]">
-                        https://youtu.be/MefXQvGTYtE</div>
-                    <br>
-                    <button class="w-full font-bold text-green-700 underline outline-none text-sm" id="dow"><a
-                            href="https://savemedia.website" id="clip" target="_blank">Downlaod Now</a></button>
-                    <!-- ends copy -->
-                </section>
-                <h1 class="font-bold text-center mt-2 text-gray-500 text-xs">
-                    <span>Sponsored by </span>
-                    <span>|</span>
-                    <span>
-                        &copy; GOPLAY</span>
-                    <h1 class="capitalize text-xs text-center p-2 text-gray-500">
-                        <a href="/src/">
-                            Home | </a>
-                        <a href="./musics.html">
-                            musics | </a>
-                        <a href="./video.html">
-                            videos </a>
-                    </h1>
+                        &copy; GOPLAY</span> 
                 </h1>
                 <br>
                 <br>
@@ -1015,12 +467,255 @@
                 <br>
                 <br>
                 <br>
+                <br>
+                <br>
             </section>
+            <!-- ends of music section -->
+            <!-- start of album section -->
+            <section id="albumsidert" class="w-full alison p-2 overflow-scroll hidden h-screen  ">
+                <section class="border-2 mt-3 p-2 w-full md:w-[55%]  md:mt-4 md:m-auto  rounded ">
+                    <div class="w-full flex items-center justify-between">
+                        <div class="flex items-center">
+                            <div class="w-10 h-10 rounded-full">
+                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
+                            </div>
+                            <h1 class="capitalize font-bold underline text-xs m-2">
+                                <a href="./profiles.html">
+                                    Dax
+                                </a>
+                            </h1>
+                        </div>
+                        <h1 class="text-xs">
+                            12/09/2022
+                        </h1>
+                    </div>
+                    <div class="w-1/2 p-1 m-auto h-20   ">
+                        <img src="/img/era.jpeg" class="rounded w-full h-20" alt="" srcset="">
+                    </div>
+                    <h1 class="p-3 text-center text-xs">
+                        Twice as tall
+                    </h1>
+                    <h1 class="cursor-pointer text-center font-bold animate-pulse rote" id="viewalbum">
+                        >
+                    </h1>
+                    <h1 class="text-center cursor-pointer hidden  animate-pulse font-bold   rote" id="goalbum">
+                        >
+                    </h1>
+                    <div class=" h-0 overflow-hidden w-full m-2" id="mainalbum">
+                        <div class="border-2 p-2 mt-2 rounded">
+                            <h1 class="text-center capitalize text-xs">
+                                walk em down
+                            </h1>
+                            <div class="m-auto">
+                                <audio class="w-full" src="/asset/audio/Joeboy-Lonely-(TrendyBeatz.com) (1).mp3"
+                                    controls></audio>
+                            </div>
+                            <h1 class="capitalize text-center text-xs text-green-700 font-bold">
+                                <a href="" download="">
+                                    download Now
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="border-2 p-2 mt-2 rounded">
+                            <h1 class="text-center capitalize text-xs">
+                                walk em down
+                            </h1>
+                            <div class="m-auto">
+                                <audio class="w-full" src="/asset/audio/Joeboy-Lonely-(TrendyBeatz.com) (1).mp3"
+                                    controls></audio>
+                            </div>
+                            <h1 class="capitalize text-center text-xs text-green-700 font-bold">
+                                <a href="" download="">
+                                    download Now
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="border-2 p-2 mt-2 rounded">
+                            <h1 class="text-center capitalize text-xs">
+                                walk em down
+                            </h1>
+                            <div class="m-auto">
+                                <audio class="w-full" src="/asset/audio/Joeboy-Lonely-(TrendyBeatz.com) (1).mp3"
+                                    controls></audio>
+                            </div>
+                            <h1 class="capitalize text-center text-xs text-green-700 font-bold">
+                                <a href="" download="">
+                                    download Now
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="border-2 p-2 mt-2 rounded">
+                            <h1 class="text-center capitalize text-xs">
+                                walk em down
+                            </h1>
+                            <div class="m-auto">
+                                <audio class="w-full" src="/asset/audio/Joeboy-Lonely-(TrendyBeatz.com) (1).mp3"
+                                    controls></audio>
+                            </div>
+                            <h1 class="capitalize text-center text-xs text-green-700 font-bold">
+                                <a href="" download="">
+                                    download Now
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="border-2 p-2 mt-2 rounded">
+                            <h1 class="text-center capitalize text-xs">
+                                walk em down
+                            </h1>
+                            <div class="m-auto">
+                                <audio class="w-full" src="/asset/audio/Joeboy-Lonely-(TrendyBeatz.com) (1).mp3"
+                                    controls></audio>
+                            </div>
+                            <h1 class="capitalize text-center text-xs text-green-700 font-bold">
+                                <a href="" download="">
+                                    download Now
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="border-2 p-2 mt-2 rounded">
+                            <h1 class="text-center capitalize text-xs">
+                                walk em down
+                            </h1>
+                            <div class="m-auto">
+                                <audio class="w-full" src="/asset/audio/Joeboy-Lonely-(TrendyBeatz.com) (1).mp3"
+                                    controls></audio>
+                            </div>
+                            <h1 class="capitalize text-center text-xs text-green-700 font-bold">
+                                <a href="" download="">
+                                    download Now
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="border-2 p-2 mt-2 rounded">
+                            <h1 class="text-center capitalize text-xs">
+                                walk em down
+                            </h1>
+                            <div class="m-auto">
+                                <audio class="w-full" src="/asset/audio/Joeboy-Lonely-(TrendyBeatz.com) (1).mp3"
+                                    controls></audio>
+                            </div>
+                            <h1 class="capitalize text-center text-xs text-green-700 font-bold">
+                                <a href="" download="">
+                                    download Now
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
+                        <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            1
+                        </div>
+                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
+                                viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            1
+                        </div>
+                    </div>
+                </section>   
+                 <h1 class="font-bold text-center p-4 mt-2 text-gray-500 text-xs">
+                    <span>Sponsored by </span>
+                    <span>|</span>
+                    <span>
+                        &copy; GOPLAY</span> 
+                </h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </section>   
+            
+            <!-- ends of album section -->
+            <!-- start video section -->
+            <section class="  h-screen overflow-scroll alison  m-2  md:w-9/12 md:m-auto  lg:w-full" id="voicer">
+                <section class="border-2 mt-3 p-2  ">
+                    <div class="w-full flex items-center justify-between">
+                        <div class="flex items-center">
+                            <div class="w-10 h-10 rounded-full">
+                                <img src="/img/wild.jpeg" alt="" class="w-10 h-10 rounded-full" srcset="">
+                            </div>
+                            <h1 class="capitalize font-bold underline text-xs m-2">
+                                <a href="./profiles.html">
+                                    Twingle-f idr
+                                </a>
+                            </h1>
+                        </div>
+                        <h1 class="text-xs">
+                            12/09/2022
+                        </h1>
+                    </div>
+                    <div class="w-full p-2 m-auto">
+                        <h1 class="text-sm p-1 text-center text-gray-600">
+                            davido saky move by youngjohn
+                        </h1>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MefXQvGTYtE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen class="rounded-lg w-full "></iframe>
+                    </div>
+                    <div class="w-4/5 m-auto mt-3 font-bold items-center  flex justify-around p-1">
+                        <div class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 text-[red] w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            1
+                        </div>
+                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 rotes w-5"
+                                viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            1
+                        </div>
+                    </div>
+                    <!-- start copy -->
+                    <div id="myInput"
+                        class=" m-auto rounded-lg p-3 w-3/4 text-xs mt-3 select-all text-center outline-none bg-[#dddddd]">
+                        https://youtu.be/MefXQvGTYtE</div>
+                    <br>
+                    <button class="w-full font-bold text-green-700 underline outline-none text-sm" id="dow"><a
+                            href="https://savemedia.website" id="clip" target="_blank">Downlaod Now</a></button>
+                    <!-- ends copy -->
+                </section>  
+                <h1 class="font-bold p-4 text-center mt-2 text-gray-500 text-xs">
+                    <span>Sponsored by </span>
+                    <span>|</span>
+                    <span>
+                        &copy; GOPLAY</span> 
+                </h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </section>
+            <!-- ends of video section -->
         </section>
         <!-- ends of center -->
         <!-- start of right side -->
         <section class="  bg-[white] hidden lg:block h-screen overflow-scroll p-3 alison" style="width: 25%;">
-            <h1 class="text-center p-1 mt-2 text-zinc-600 text-sm">Top music videos
+            <h1 class="text-center p-1 mt-2 text-zinc-600 text-xs">Top music videos
             </h1>
             <div class="w-full p-1   m-auto mt-3 rounded-lg  romioss  bg-[#ebebeb]">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/aoVLfLUm2vk"
@@ -1030,54 +725,14 @@
             </div>
             <h1 class="text-center p-3 mt-2 text-zinc-600 text-sm">Ads</h1>
             <div class="w-full p-1 h-56 m-auto mt-1 rounded-lg romioss  bg-[#ebebeb]">
-            </div>
-            <h1 class="text-center p-3 mt-2 text-zinc-600 text-sm">Top News</h1>
-            <div class="w-full bg-[#ebebeb] p-2 rounded-lg">
-                <div class="w-full romios mt-2  flex rounded-lg bg-[white]">
-                    <div class="w-1/4 rounded-lg  p-1  nive">
-                        <img src="/img/man.jpeg" class="rounded-lg h-24 " alt="">
-                    </div>
-                    <div class="flex letr">
-                        <div class=" p-2 preve">
-                            <h1
-                                class="text-xs mt-5 tyre hover:underline hover:text-black transition text-gray-600 tracking">
-                                <a href="./viewnews.html">
-                                    Zinoleesky ft tiwasavage hold something</a>
-                            </h1>
-                            <h1 class="text-xs mt-3 gey text-gray-600">News</h1>
-                        </div>
-                        <div class="flex items-center w-1/4 geys  text-xs ">
-                            <h1 class="text-gray-600 mogis">12/09/2022 </h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full romios mt-2  flex rounded-lg bg-[white]">
-                    <div class="w-1/4 rounded-lg  p-1  nive">
-                        <img src="/img/man.jpeg" class="rounded-lg h-24  " alt="">
-                    </div>
-                    <div class="flex letr">
-                        <div class=" p-2 preve">
-                            <h1
-                                class="text-xs mt-5 tyre hover:underline hover:text-black transition text-gray-600 tracking">
-                                <a href="./viewnews.html">
-                                    Zinoleesky ft tiwasavage hold something</a>
-                            </h1>
-                            <h1 class="text-xs mt-3 gey text-gray-600">News</h1>
-                        </div>
-                        <div class="flex items-center w-1/4 geys  text-xs ">
-                            <h1 class="text-gray-600 mogis">12/09/2022 </h1>
-                        </div>
-                    </div>
-                </div>
-                <h1 class="text-center p-3 mt-2 text-zinc-600 text-sm">Ads</h1>
-                <div class="w-full p-2 m-auto mt-1 rounded-lg bg-[#ebebeb]">
-                    <img src="/img/wild.jpeg" class="rounded-lg w-full " alt="">
-                </div>
-            </div>
+            </div> 
         </section>
         <!-- ends of right side -->
     </main>
 </body>
-<script src="/js/feed.js"></script> 
-<script src="/js/ads.js"></script> 
+<script src="/js/feed.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/ads.js"></script>
+<script src="/js/dash.js"></script>
+
 </html>
