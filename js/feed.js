@@ -78,7 +78,7 @@ loker.addEventListener("click",()=>{
   eeder.style.transition="1s"
 }) 
 vider.addEventListener("click",()=>{
-  vider.style.border="white solid 2px" 
+  vider.style.border="none" 
   vider.style.backgroundColor="black"
   vider.style.color="white"
   loker.style.transition="1s" 
